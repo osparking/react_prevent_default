@@ -14,7 +14,7 @@ const ListWithAddItem = () => {
     if (value.trim() !== "") {
       setList(list.concat(value));
     }
-    setValue("");
+    // setValue("");
     event.preventDefault();
   };
   return (
